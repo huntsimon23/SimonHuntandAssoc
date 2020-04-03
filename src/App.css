@@ -1,8 +1,9 @@
 .simon {
   align-items: center;
-  opacity: 75%;
+  vertical-align: middle;
   width: 205px;
   height: auto;
+  z-index: 1;
 }
 
 .btn {
