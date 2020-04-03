@@ -1,0 +1,19 @@
+.simon {
+  align-items: center;
+  opacity: 75%;
+  width: 205px;
+  height: auto;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.header {
+  text-align: center;
+  vertical-align: middle;
+  max-height: fit-content;
+  max-width: auto;
+  flex-flow: inherit;
+}
+
