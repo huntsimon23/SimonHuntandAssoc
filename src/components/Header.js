@@ -5,9 +5,9 @@ class Header extends Component {
     render(){
     return (
         <div>
-            <div className="jumbotron header row" style={{backgroundImage: "url('/shaa/public/assets/CodeskillsBKG.png')"}}>
+            <div className="jumbotron header row" style={{backgroundImage: "url('/assets/CodeskillsBKG.png')"}}>
                 <div className="col">
-                    <img src="/shaa/public/assets/SimonHunt.jpg" className="img-fluid simon" alt="Simon Hunt"/>
+                    <img src="/assets/SimonHunt.jpg" className="img-fluid simon" alt="Simon Hunt"/>
                 </div>
                 <div className="col">
                     <div className="row" style={{height: 10}}></div>
