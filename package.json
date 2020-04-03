@@ -2,7 +2,7 @@
   "name": "shaa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://huntsimon23.github.io/SimonHuntandAssoc/",
+  "homepage": "https://www.simonhunt.us/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
