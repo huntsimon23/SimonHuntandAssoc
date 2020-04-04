@@ -11,13 +11,23 @@ class Header extends Component {
                 </div>
                 <div className="col">
                     <div className="row" style={{height: 10}}></div>
-                    <h6>I am an insurance agent, entrepreneuer, web developer, and Celebrate Recovery leader.  Use calendar below to schedule a 30 minute consultation (via zoom or phone) to discuss how I can best serve you!</h6>
+                    <h6><ul>
+                        <li>Insurance Agent</li>  
+                        <li>Entrepreneuer</li>
+                        <li>Web Developer</li>
+                        <li>Celebrate Recovery Leader</li>
+                        <li>How I can best serve you?</li>
+                    </ul></h6>
                     <Button 
-                    name="Simon's web portfolio"
+                        name="Schedule Consultation"
+                        link=""
+                    />
+                    <Button 
+                    name="My Web Portfolio"
                     link="http://freshcoconut.solutions"
                     />
                     <Button 
-                    name="email Simon"
+                    name="Email"
                     link="mailto:freshcoconutsoluions@gmail.com"
                     />
                 </div>    
