@@ -21,7 +21,7 @@ class Header extends Component {
                     </h6>
                     <Button 
                         name="Schedule Consultation"
-                        link=""
+                        link="#calendly"
                     />
                     <Button 
                     name="My Web Portfolio"

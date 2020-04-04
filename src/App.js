@@ -10,7 +10,7 @@ function App() {
       <Header />
       <div className="row">
         <div className="col">
-        <Calendly />
+          <a name="calendly"><Calendly /></a>
         </div>
       </div>
       <Footer /> 
