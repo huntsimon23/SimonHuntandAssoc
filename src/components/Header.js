@@ -11,13 +11,14 @@ class Header extends Component {
                 </div>
                 <div className="col">
                     <div className="row" style={{height: 10}}></div>
-                    <h6><ul>
-                        <li>Insurance Agent</li>  
-                        <li>Entrepreneuer</li>
-                        <li>Web Developer</li>
-                        <li>Celebrate Recovery Leader</li>
-                        <li>How I can best serve you?</li>
-                    </ul></h6>
+                    <h6><ul className="list-group">
+                        <li className="list-group-item">Insurance Agent</li>  
+                        <li className="list-group-item">Entrepreneuer</li>
+                        <li className="list-group-item">Web Developer</li>
+                        <li className="list-group-item">Celebrate Recovery Leader</li></ul>
+                        <br/>
+                        How I can best serve you?
+                    </h6>
                     <Button 
                         name="Schedule Consultation"
                         link=""
@@ -26,7 +27,7 @@ class Header extends Component {
                     name="My Web Portfolio"
                     link="http://freshcoconut.solutions"
                     />
-                    <Button 
+                    <Button
                     name="Email"
                     link="mailto:freshcoconutsoluions@gmail.com"
                     />
