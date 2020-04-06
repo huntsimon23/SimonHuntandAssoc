@@ -8,6 +8,11 @@ render(){
         <div className="jumbotron header" style={{backgroundImage: "url('assets/codeskillsBKG.png')"}}>
             <div className="row">
                 <div className="col">
+                    <h3>Simon Hunt</h3>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col">
                     <img src="./assets/SimonHunt.jpg" className="img-fluid simon" alt="Simon Hunt"/>
                 </div>
                 <div className="col">
@@ -15,14 +20,14 @@ render(){
                         <li className="list-group-item">Insurance Agent</li>  
                         <li className="list-group-item">Entrepreneuer</li>
                         <li className="list-group-item web"><a href="http://freshcoconut.solutions">Web Developer</a></li>
-                        <li className="list-group-item">Celebrate Recovery Leader</li></ul>
+                        </ul>
                         <br/>
                     </h6>
                 </div>
             </div>
             <div className="row">
                 <div className="col">
-                    <h4>How can I best serve you?</h4>
+                    <h4>How can I serve you?</h4>
                 </div>
             </div>
             <div className="row">
@@ -33,13 +38,16 @@ render(){
                 />
                 </div>
             </div>
+            <hr />
             <div className="row">
+                <div className="col" />
                 <div className="col">
-                <Button
-                name="Email"
-                link="mailto:freshcoconutsoluions@gmail.com"
-                />
+                    <a href="mailto:freshcoconutsoluions@gmail.com"><i class="far fa-envelope fa-lg"></i></a>
                 </div>
+                <div className="col">
+                    <a href="https://www.facebook.com/SimonHuntInc/"><i class="fab fa-facebook-f fa-lg"></i></a>
+                </div>
+                <div className="col" />
             </div>
         </div>        
     </div>                
