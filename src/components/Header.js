@@ -33,7 +33,7 @@ render(){
             <div className="row">
                 <div className="col">
                 <Button 
-                    name="Schedule Consultation"
+                    name="Schedule Meeting"
                     link="#calendly"
                 />
                 </div>
